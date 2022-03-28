@@ -1,0 +1,162 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "DM Sans";
+}
+
+/* Stylying never section */
+.never_relent{
+    display: flex;
+}
+
+
+.never_relent {
+    width: 50%;   
+    margin-bottom: 5%;
+}
+
+/* Styling for Hero Section */
+.hero_section {
+    display: flex;
+}
+
+.hero_box {
+    width: 50%;
+}
+
+.hero_box_first_half {
+    margin-left: 7%;
+    margin-top: 20%;
+}
+
+.time_is_up {
+    margin-bottom: 5%;
+    text-transform: uppercase;
+}
+
+.lively {
+    margin-bottom: 5%;
+    font-size: 5.5rem;
+    text-transform: uppercase;
+}
+
+.refreshed {
+    width: 80%;
+    color: blue;
+}
+
+.food {
+    width: 100%;
+    height: 100vh;
+}
+
+body {
+    background-color: violet;
+}
+.never_relent {
+    width: 50%;   
+}
+
+/*styling for skills section*/
+
+.skill_section {
+    background-color: #24292e;
+    padding: 5%;
+    text-transform: uppercase;
+}
+
+.skill_list{
+    color: white;
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.skill_mini_header{
+    color: #595959;
+}
+
+.skill_list li{
+    list-style: none;
+    margin-right: 5%;
+    margin-top: 3%;
+    font-size: 2.5rem;
+}
+
+/* Styling for Contacct Section */
+.contact_section {
+    padding: 5%;
+}
+
+.chop {
+    margin-bottom: 1%;
+    font-size: 2rem;
+    text-transform: uppercase;
+}
+
+.contact_header_info {
+    display: flex;
+    margin-top: 1%;
+    justify-content: space-between;
+    font-size: 2.5rem;
+    max-width: 40%;
+    font-weight: 700;
+    margin-bottom: 5%;
+}
+
+.contact_header_greeting {
+    font-size: 2.5rem;
+    max-width: 40%;
+    font-weight: 700;
+    margin-bottom: 5%;
+}
+
+.contact_form_wrapper {
+    display: flex;
+    margin-top: 5%;
+    flex-direction: column;
+}
+
+.contact_form_input, .contact_form_textarea {
+    padding: 1.5rem;
+    font-size: 1rem;
+    border: none;
+    background-color: lightgoldenrodyellow;
+    margin-bottom: 1.5%;
+}
+
+.contact_form_button {
+    padding: 1%;
+    color: white;
+    width: max-content;
+    border-radius: 0.5rem;
+    font-weight: 600;
+    font-size: 1rem;
+    background-color: black;
+}
+
+/* Social Icons */
+.social_icons_wrapper {
+    display: flex;
+    align-items: center;
+}
+
+.social_icons_item {
+    margin-right: 5%;
+}
+
+.footer_section {
+    display: flex;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 1%;
+    padding-bottom: 3%;
+    justify-content: space-between;
+    background-color: lightgray;
+    align-items: center;
+}
+
+.footer_text {
+    padding-left: 1rem;
+    border-left: 5px solid black;
+}
